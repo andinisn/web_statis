@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+  }
+  body {
+    background: linear-gradient(to left, rgb(169, 204, 231), rgb(51, 95, 97));
+    color: rgb(12, 12, 12);
+  }
+
+  /* navbar start */
+  nav {
+    display: flex;
+    background-color: rgb(121, 143, 175);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 60px;
+    background: linear-gradient(to left, rgb(169, 204, 231), rgb(51, 95, 97));
+
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+  }
+  
+  .menu-list li a {
+    padding: 15px 20px;
+    color: white;
+    font-size: 17px;
+  }
+
+  nav .menu-list .dropdown {
+    display: none;
+  }
+  nav ul li:hover .dropdown {
+    display: block;
+    background-color: rgb(121, 143, 175);
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    height: 35px;
+  }
+
+  nav .menu-list .dropdown- {
+    display: none;
+  }
+  nav ul li:hover .dropdown- {
+    display: block;
+    background-color: rgb(121, 143, 175);
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    height: 65px;
+  }
+
+  nav ul li a:hover .dropdown- {
+    padding-bottom: 50px;
+  }
+
+  nav .navbar img {
+    width: 55px;
+    height: 54px;
+    border-radius: 60px;
+  }
+
+  nav .brand {
+    padding-right: 500px;
+    color: white;
+    font-size: 25px;
+  } 
+/* navbar end */
+
+  /* konten start */
+  .about{
+    margin-left: 30px;
+  }
+
+.media img{
+    height: 240px;
+    width: 360px;
+    /*untuk buat gambar ke tengah */
+    display: block;
+    margin: 0 auto;
+    /*----------------------------*/
+}
+
+.content{
+    padding-left: 30px;
+    padding-right: 30px;
+  
+}
+
+.content{
+    margin-top: 20px;
+    
+}
+
+.one{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.one p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.one img{
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 350px;
+}
+
+.two{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.two p{
+    margin-top: 20spx;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.two img{
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 350px;
+}
+
+.three{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.three p{
+    margin-top: 20spx;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.three img{
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: 350px;
+}
+
+.tombol button {
+  background-color: rgb(121, 143, 175);
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.tombol button a {
+  color: white;
+}
+
+table, tr, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 15px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.tutorial{
+  margin-left: 30px;
+}
+.tutorial p {
+    margin-left: 30px;
+xx
+}
+.tutorial ol li {
+    margin-left: 30px;
+}
+
+.tombol2 button {
+  background-color: rgb(121, 143, 175);
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.tombol2 button a {
+  color: white;
+}
+
+.tombol3 button {
+  background-color: rgb(121, 143, 175);
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.tombol3 button a {
+  color: white;
+}
+
+.trivia {
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+footer {
+  background: linear-gradient(to left, rgb(169, 204, 231), rgb(51, 95, 97));
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
